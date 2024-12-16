@@ -1,0 +1,190 @@
+/*from w3 schools hero image */
+
+body, html {
+  height: 100%;
+  background-color:rgb(0, 0, 0);
+  color: rgb(255, 239, 223);
+  font-family: 'Montserrat Alternates', 'Arial Narrow Bold', sans-serif;
+}
+
+/* The hero image */
+.hero-image {
+/* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("stars.jpg");
+
+
+/* Set a specific height */
+height: 100%;
+
+/* Position and center the image to scale nicely on all screens */
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+font-family: 'Fugaz One','Arial Narrow Bold', sans-serif;
+text-align: center;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+color: white;
+}
+
+/*end of w3 schools hero image*/
+
+.showtitle{
+  font-size:2em;
+  /*color:#772796;*/
+  color:  rgb(122, 25, 202);
+}
+
+
+#lightbox {
+  position:fixed;
+  top:0px;
+  left:0px;
+  width:100%;
+  height:100%;
+  background-color:rgba(0,0,0,0.9); 
+  display:none;
+  
+}
+
+#message {
+  width:50%;
+  height:80%;
+  padding:20px;
+  border-radius: 15px;
+  background-color:#250b54;
+  text-align:center;
+  
+  /* Center the message in the lightbox */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+#message img{
+  height: 30vh;
+  border-radius: 15px;
+}
+
+pre{
+  font-family: 'Montserrat Alternates', 'Arial Narrow Bold', sans-serif;
+}
+
+#main{
+  display: grid;
+  grid-template-rows: 1fr;
+  gap: 3vw;
+}
+
+#main section{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+#main section article{
+  margin-top: 2vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#main section img{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5vh;
+  height: 60vh;
+  border-radius: 15px;
+}
+
+#main p{
+  padding-right: 10vw;
+}
+
+
+input{
+  background-color: #ffffff;
+  border: none;
+  color:#250b54;
+  padding: 8px 16px;
+  text-decoration: none;
+  margin: 4px 2px;
+  border-radius: 15px;
+  font-family:'Montserrat Alternates', 'Arial Narrow Bold', sans-serif;
+}
+
+button{
+  background-color: #581d9b;
+  border: none;
+  color:#ffffff;
+  padding: 8px 16px;
+  text-decoration: none;
+  margin: 4px 2px;
+  border-radius: 15px;
+  font-family:'Montserrat Alternates', 'Arial Narrow Bold', sans-serif;
+}
+
+ol{
+  /*color:#5f26c9;*/
+  /*color: #772796;*/
+  /*color: rgb(202, 25, 202);*/
+  color:  rgb(122, 25, 202);
+}
+
+a{
+  text-decoration: none;
+  /*color: rgb(202, 25, 202);*/
+  color:  rgb(122, 25, 202);
+}
+
+/*
+.temp{
+display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-decoration: dashed underline red;
+}*/
+
+#tempo{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /*text-decoration: dashed underline red;*/
+}
+
+
+@media only screen and (max-width: 800px) {
+  #message {
+    margin-bottom: 10vh;
+    margin-top: 10vh;
+    
+    height: 90%;
+    width: 80%;
+  }
+
+  #main section{
+    grid-template-columns: 1fr;
+  }
+
+  #main section article{
+    margin-left: 7vw;
+  }
+
+  #message img{
+    max-width: 90%;
+    height: auto;
+  }
+
+  #tempo{
+    
+    grid-template-columns: 1fr;
+    /*text-decoration: dashed underline red;*/
+  }
+
+
+}

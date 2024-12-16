@@ -1,0 +1,66 @@
+{
+    "theme_color": "#000000",
+    "background_color": "#ffffff",
+    "icons": [
+      {
+        "purpose": "any",
+        "sizes": "48x48",
+        "src": "icons/icon-48-48.png",
+        "type": "image/png"
+      },
+      {
+        "purpose": "any",
+        "sizes": "72x72",
+        "src": "icons/icon-72-72.png",
+        "type": "image/png"
+      },
+      {
+        "purpose": "any",
+        "sizes": "96x96",
+        "src": "icons/icon-96-96.png",
+        "type": "image/png"
+      },
+      {
+        "purpose": "any",
+        "sizes": "144x144",
+        "src": "icons/icon-144-144.png",
+        "type": "image/png"
+      },
+      {
+        "purpose": "any",
+        "sizes": "192x192",
+        "src": "icons/icon-192-192.png",
+        "type": "image/png"
+      },
+      {
+        "purpose": "maskable",
+        "sizes": "512x512",
+        "src": "icons/icon-512-512.png",
+        "type": "image/png"
+      }
+    ],
+    "orientation": "any",
+    "start_url": "tvmaze1/",
+    "scope": "/",
+    "display": "standalone",
+    "dir": "auto",
+    "lang": "en-US",
+    "name": "TV Maze",
+    "short_name": "TV Maze",
+    "screenshots": [
+    {
+      "src": "screenshots/screenshot1.png",
+      "sizes": "702x920",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "screenshots/screenshot2.png",
+      "form_factor": "wide",
+      "sizes": "1204x914",
+      "type": "image/png",
+      "purpose": "any"
+    }
+    ]
+ 
+  }
