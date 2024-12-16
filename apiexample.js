@@ -1,4 +1,4 @@
-let apiURL = 'http://api.tvmaze.com/';
+let apiURL = 'https://api.tvmaze.com/';
 let message;
 
 // initialize page after HTML loads
