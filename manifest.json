@@ -40,7 +40,7 @@
       }
     ],
     "orientation": "any",
-    "start_url": "https://clarissek17.github.io/tvmaze1/",
+    "start_url": "/tvmaze1/",
     "scope": "/",
     "display": "standalone",
     "dir": "auto",
