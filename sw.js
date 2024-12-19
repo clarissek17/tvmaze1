@@ -52,8 +52,6 @@ const STATIC_ASSETS = [
     'icons/icon-144-144.png',
     'icons/icon-192-192.png',
     'icons/icon-512-512.png',
-    'screenshots/screenshot1.png',
-    'screenshots/screenshot2.png'
   // Add other static files you want to cache
 ];
 
